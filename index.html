@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Art Productions</title>
+  <!-- FontAwesome Link -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="logo">
+        Art Productions
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- Theme Toggle Switch with Icon -->
+      <div class="theme-toggle-container">
+        <span class="mode-label" id="mode-label">Light Mode</span>
+        <label class="switch">
+          <input type="checkbox" id="theme-toggle">
+          <span class="slider">
+            <!-- Icons for Light and Dark Mode -->
+            <i class="fa fa-sun" id="light-icon"></i>
+            <i class="fa fa-moon" id="dark-icon"></i>
+          </span>
+        </label>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Innovating Ideas, Creating the Future</h1>
+      <p>At the cutting edge of invention, Art Productions brings visionary concepts to life, turning creativity into impactful solutions.</p>
+      <a href="#portfolio" class="btn">Discover Our Innovations</a>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>Our Innovations</h2>
+    <div class="portfolio-gallery">
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/300" alt="Innovation 1">
+        <h3>Product Prototype 1</h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/300" alt="Innovation 2">
+        <h3>Innovative Tech Solution 2</h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/300" alt="Innovation 3">
+        <h3>Futuristic Concept 3</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Art Productions, we are a team of creators, engineers, and innovators working together to shape the future. We turn visionary concepts into tangible solutions that not only solve real-world challenges but also push the limits of creativity and technology. Our goal is to inspire and create groundbreaking inventions that pave the way for the future.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <p>Whether you have an idea to explore or a challenge to overcome, Art Productions is here to bring your innovative ideas to life. Reach out to us, and let's collaborate to create something extraordinary.</p>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Art Productions. All Rights Reserved.</p>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
+
